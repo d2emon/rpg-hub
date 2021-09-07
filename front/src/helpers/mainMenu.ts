@@ -17,12 +17,24 @@ const mainMenu: NavMenu[] = [
     icon: 'mdi-map',
     title: 'Карты Боя',
     link: '/battle-map',
+    /*
+    - Fantasy
+    - Modern
+    - Sci-Fi
+     */
   },
   {
     id: 'dm',
     icon: 'mdi-account',
     title: 'Мастеру',
     link: '/dm',
+    /*
+    - Campaigns
+    - Charsheet
+    - Guides
+    - Mastering
+    - Worldbuild
+     */
   },
   {
     id: 'games',
@@ -35,6 +47,11 @@ const mainMenu: NavMenu[] = [
     icon: 'mdi-account-multiple',
     title: 'Генераторы',
     link: '/generator',
+    /*
+    - Excel
+    - Soft
+    - Tables
+     */
   },
   {
     id: 'langedok',
@@ -53,12 +70,24 @@ const mainMenu: NavMenu[] = [
     icon: 'mdi-account-multiple',
     title: 'Миниатюры',
     link: '/miniature',
+    /*
+    - Fantasy
+    - Furniture
+    - Modern
+    - SciFI
+    - Wild Wesy
+     */
   },
   {
     id: 'modules',
     icon: 'mdi-account-multiple',
     title: 'Модули',
     link: '/module',
+    /*
+    -
+    -
+    -
+     */
   },
   {
     id: 'settings',
