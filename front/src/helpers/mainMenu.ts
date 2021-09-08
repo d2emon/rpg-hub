@@ -30,7 +30,7 @@ const mainMenu: NavMenu[] = [
     link: '/dm',
     /*
     - Campaigns
-    - Charsheet
+      - Тетрадь Мастера
     - Guides
     - Mastering
     - Worldbuild
@@ -41,6 +41,9 @@ const mainMenu: NavMenu[] = [
     icon: 'mdi-dice-d20',
     title: 'Игры',
     link: '/game',
+    /*
+    - ...
+     */
   },
   {
     id: 'generators',
@@ -64,12 +67,18 @@ const mainMenu: NavMenu[] = [
     icon: 'mdi-home',
     title: 'Кабинетки',
     link: '/langedok',
+    /*
+    - ...
+     */
   },
   {
     id: 'magazines',
     icon: 'mdi-newspaper',
     title: 'Журналы',
     link: '/magazine',
+    /*
+    - ...
+     */
   },
   {
     id: 'wiki',
@@ -87,7 +96,7 @@ const mainMenu: NavMenu[] = [
     - Furniture
     - Modern
     - SciFI
-    - Wild Wesy
+    - Wild West
      */
   },
   {
@@ -96,9 +105,7 @@ const mainMenu: NavMenu[] = [
     title: 'Модули',
     link: '/module',
     /*
-    -
-    -
-    -
+    - ...
      */
   },
   {
@@ -106,12 +113,18 @@ const mainMenu: NavMenu[] = [
     icon: 'mdi-earth',
     title: 'Миры',
     link: '/world',
+    /*
+    - ...
+     */
   },
   {
     id: 'soft',
     icon: 'mdi-desktop-classic',
     title: 'Программы',
     link: '/soft',
+    /*
+    - ...
+     */
   },
   {
     id: 'crew',
