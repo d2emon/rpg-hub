@@ -26,3 +26,10 @@ export default class TextCard extends Vue {
   content!: string;
 }
 </script>
+
+<style>
+.v-card__text h1, .v-card__text h2 {
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+</style>

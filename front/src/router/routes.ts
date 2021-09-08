@@ -13,13 +13,71 @@ const routes: Array<RouteConfig> = [
         path: 'about',
         component: () => import('@/components/dashboard/About.vue'),
       },
+      /*
+      {
+        path: 'battle-map',
+        component: () => import('@/components/dashboard/About.vue'),
+      },
+      */
+      {
+        path: 'dm',
+        component: () => import('@/components/dashboard/DungeonMaster.vue'),
+      },
+      {
+        path: 'game',
+        component: () => import('@/components/dashboard/Games.vue'),
+      },
+      /*
+      {
+        path: 'generator',
+        component: () => import('@/components/dashboard/About.vue'),
+      },
+      */
+      /*
+      {
+        path: 'larp',
+        component: () => import('@/components/dashboard/About.vue'),
+      },
+      */
+      /*
+      {
+        path: 'langedok',
+        component: () => import('@/components/dashboard/About.vue'),
+      },
+      */
+      /*
+      {
+        path: 'magazine',
+        component: () => import('@/components/dashboard/About.vue'),
+      },
+      */
       {
         path: 'wiki',
         component: () => import('@/components/dashboard/Wiki.vue'),
       },
       {
-        path: 'wiki/:path*.md',
+        path: 'wiki/:path+.md',
         component: () => import('@/components/dashboard/Wiki.vue'),
+      },
+      /*
+      {
+        path: 'miniature',
+        component: () => import('@/components/dashboard/About.vue'),
+      },
+      */
+      {
+        path: 'module',
+        component: () => import('@/components/dashboard/Adventures.vue'),
+      },
+      /*
+      {
+        path: 'world',
+        component: () => import('@/components/dashboard/About.vue'),
+      },
+      */
+      {
+        path: 'soft',
+        component: () => import('@/components/dashboard/Software.vue'),
       },
       /*
       {

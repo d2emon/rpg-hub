@@ -13,15 +13,18 @@
             Статьи
           </v-card-title>
           <v-list>
-            <v-list-item
-              v-for="articleId in articleIds"
-              :key="articleId"
-              :to="`/wiki/${articleId}.md`"
-            >
-              <v-list-item-title>
-                {{ articleId }}
-              </v-list-item-title>
-            </v-list-item>
+            <v-list-item-group v-model="articleId">
+              <v-list-item
+                v-for="article in articleIds"
+                :key="article"
+                :to="`/wiki/${article}.md`"
+                :value="article"
+              >
+                <v-list-item-title>
+                  {{ article }}
+                </v-list-item-title>
+              </v-list-item>
+            </v-list-item-group>
           </v-list>
         </v-card>
       </v-col>
@@ -29,6 +32,11 @@
         <wiki-page
           v-if="articleId"
           :article-id="articleId"
+        />
+        <wiki-page
+          v-else
+          caption="Статьи"
+          article-id="Настолки/Статьи/index"
         />
       </v-col>
     </v-row>
