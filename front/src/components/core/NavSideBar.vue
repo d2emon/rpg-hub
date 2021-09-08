@@ -10,7 +10,10 @@
       two-line
     >
       <v-list-item-avatar>
-        <img :src="gameMaster.avatar" alt="">
+        <img
+          :src="gameMaster.avatar"
+          :alt="gameMaster.name"
+        >
       </v-list-item-avatar>
 
       <v-list-item-content>

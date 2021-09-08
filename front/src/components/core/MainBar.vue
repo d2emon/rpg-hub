@@ -101,7 +101,10 @@
       class="mx-2"
     >
       <v-avatar>
-        <img :src="user.avatar" alt="" />
+        <img
+          :src="user.avatar"
+          :alt="user.name"
+        />
       </v-avatar>
     </v-btn>
   </v-app-bar>
