@@ -7,10 +7,10 @@ export interface NavMenu {
 
 const mainMenu: NavMenu[] = [
   {
-    id: 'main',
-    icon: 'mdi-view-dashboard',
-    title: 'Панель управления',
-    link: '/',
+    id: 'about',
+    icon: 'mdi-help-box',
+    title: 'Об игре',
+    link: '/about',
   },
   {
     id: 'battle-maps',
@@ -72,10 +72,10 @@ const mainMenu: NavMenu[] = [
     link: '/magazine',
   },
   {
-    id: 'articles',
+    id: 'wiki',
     icon: 'mdi-text',
     title: 'Статьи',
-    link: '/article',
+    link: '/wiki',
   },
   {
     id: 'miniatures',
@@ -130,12 +130,6 @@ const mainMenu: NavMenu[] = [
     icon: 'mdi-image',
     title: 'Фотография',
     link: '/photo',
-  },
-  {
-    id: 'about',
-    icon: 'mdi-help-box',
-    title: 'Об игре',
-    link: '/about',
   },
 ];
 

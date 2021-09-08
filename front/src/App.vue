@@ -23,4 +23,3 @@ blockquote {
   padding: 0 1em;
 }
 </style>
-

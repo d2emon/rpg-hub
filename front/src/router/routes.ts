@@ -7,7 +7,19 @@ const routes: Array<RouteConfig> = [
     children: [
       {
         path: '',
-        component: () => import('@/components/dashboard/CharacterSheet.vue'),
+        redirect: '/about',
+      },
+      {
+        path: 'about',
+        component: () => import('@/components/dashboard/About.vue'),
+      },
+      {
+        path: 'wiki',
+        component: () => import('@/components/dashboard/Wiki.vue'),
+      },
+      {
+        path: 'wiki/:path*.md',
+        component: () => import('@/components/dashboard/Wiki.vue'),
       },
       /*
       {

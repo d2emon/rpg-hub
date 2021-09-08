@@ -1,8 +1,10 @@
+import articles from '@/helpers/articles';
 import { User } from '@/helpers/user';
 
 export interface RootState {
   title: string;
   user: User;
+  articles: { [key: string]: string };
 }
 
 const state: RootState = {
@@ -13,6 +15,7 @@ const state: RootState = {
     userId: 'd2emon',
     profileLink: '/profile/d2emon',
   },
+  articles,
 };
 
 export default state;
