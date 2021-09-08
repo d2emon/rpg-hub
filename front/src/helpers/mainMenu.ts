@@ -25,7 +25,7 @@ const mainMenu: NavMenu[] = [
   },
   {
     id: 'dm',
-    icon: 'mdi-account',
+    icon: 'mdi-account-settings',
     title: 'Мастеру',
     link: '/dm',
     /*
@@ -38,13 +38,13 @@ const mainMenu: NavMenu[] = [
   },
   {
     id: 'games',
-    icon: 'mdi-account-multiple',
+    icon: 'mdi-dice-d20',
     title: 'Игры',
     link: '/game',
   },
   {
     id: 'generators',
-    icon: 'mdi-account-multiple',
+    icon: 'mdi-hammer',
     title: 'Генераторы',
     link: '/generator',
     /*
@@ -54,20 +54,32 @@ const mainMenu: NavMenu[] = [
      */
   },
   {
+    id: 'larp',
+    icon: 'mdi-sword',
+    title: 'Игры живого действия',
+    link: '/larp',
+  },
+  {
     id: 'langedok',
-    icon: 'mdi-account-multiple',
+    icon: 'mdi-home',
     title: 'Кабинетки',
     link: '/langedok',
   },
   {
     id: 'magazines',
-    icon: 'mdi-account-multiple',
+    icon: 'mdi-newspaper',
     title: 'Журналы',
     link: '/magazine',
   },
   {
+    id: 'articles',
+    icon: 'mdi-text',
+    title: 'Статьи',
+    link: '/article',
+  },
+  {
     id: 'miniatures',
-    icon: 'mdi-account-multiple',
+    icon: 'mdi-human-male-male',
     title: 'Миниатюры',
     link: '/miniature',
     /*
@@ -80,7 +92,7 @@ const mainMenu: NavMenu[] = [
   },
   {
     id: 'modules',
-    icon: 'mdi-account-multiple',
+    icon: 'mdi-puzzle',
     title: 'Модули',
     link: '/module',
     /*
@@ -91,13 +103,13 @@ const mainMenu: NavMenu[] = [
   },
   {
     id: 'settings',
-    icon: 'mdi-account-multiple',
+    icon: 'mdi-earth',
     title: 'Миры',
     link: '/world',
   },
   {
     id: 'soft',
-    icon: 'mdi-account-multiple',
+    icon: 'mdi-desktop-classic',
     title: 'Программы',
     link: '/soft',
   },
